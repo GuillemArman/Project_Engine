@@ -90,16 +90,19 @@
     <ClInclude Include="imgui.h">
       <Filter>Imgui</Filter>
     </ClInclude>
+    <ClInclude Include="imgui_impl_sdl.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
     <ClInclude Include="imgui_internal.h">
       <Filter>Imgui</Filter>
     </ClInclude>
-    <ClInclude Include="imstb_rectpack.h">
+    <ClInclude Include="stb_rect_pack.h">
       <Filter>Imgui</Filter>
     </ClInclude>
-    <ClInclude Include="imstb_textedit.h">
+    <ClInclude Include="stb_textedit.h">
       <Filter>Imgui</Filter>
     </ClInclude>
-    <ClInclude Include="imstb_truetype.h">
+    <ClInclude Include="stb_truetype.h">
       <Filter>Imgui</Filter>
     </ClInclude>
   </ItemGroup>
@@ -164,7 +167,7 @@
     <ClCompile Include="imgui_draw.cpp">
       <Filter>Imgui</Filter>
     </ClCompile>
-    <ClCompile Include="imgui_widgets.cpp">
+    <ClCompile Include="imgui_impl_sdl.cpp">
       <Filter>Imgui</Filter>
     </ClCompile>
   </ItemGroup>

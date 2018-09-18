@@ -16,7 +16,7 @@ bool Module_UI::Start()
 {
 	LOG("Setting up the UI");
 	bool ret = true;
-
+	//ImGui_ImplSdl_Init(App->window->window);
 	return ret;
 }
 
