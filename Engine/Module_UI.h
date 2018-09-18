@@ -2,9 +2,6 @@
 #define __Module_UI__
 
 #include "Module.h"
-#include "ImGui/imgui.h"
-#include "ImGui/imgui_impl_sdl.h"
-
 
 class Module_UI : public Module
 {
